@@ -1,0 +1,25 @@
+.page{
+    font-family: Inter, Verdana, Tahoma, sans-serif;
+    background-color: #2A2C2F;;
+}
+
+@media (max-width:1280px){
+    /*тут уже 3*/
+    .page{
+        color: red;
+    }
+}
+
+@media (max-width:1024px){
+    /*тут 2*/
+    .page{
+        color: yellowgreen;
+    }
+}
+
+@media (max-width:768px){
+    /*тут 1*/
+    .page{
+        color: blue;
+    }
+}
