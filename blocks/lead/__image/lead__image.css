@@ -1,0 +1,19 @@
+.lead__image{
+    position: relative;
+    display: flex;
+    margin: 64px auto 0;
+    padding: 0;
+    width: 100%;
+}
+
+@media (max-width: 1279px) {
+    .lead__image{
+        margin-top: 56px;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead__image{
+        margin-top: 40px;
+    }
+}

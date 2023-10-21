@@ -1,0 +1,37 @@
+.cover__text{
+    white-space: pre-line;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+
+    margin: 0;
+    margin-top: 32px;
+    padding-bottom: 245px;
+
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 1024px){
+    .cover__text{
+        padding-bottom: 195px;
+    }
+}
+
+@media (max-width: 768px){
+    .cover__text{
+        padding-bottom: 115px;
+    }
+}
+
+@media (max-width: 320px){
+    .cover__text{
+        padding-bottom: 33px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
