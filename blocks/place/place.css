@@ -1,0 +1,39 @@
+.place{
+    width: 100%;
+    height: auto; /*Не надо менять на vh или %, потому что текст в place__text может быть предсказуемого размера*/
+    margin: 0;
+    margin-bottom: 80px;
+    padding: 0;
+
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr min-content;
+    grid-template-areas: 
+    "title website"
+    "image textik";
+}
+
+.place:last-child{
+    margin-bottom: 0;
+}
+
+@media (max-width: 1023px){
+    .place{
+        margin-bottom: 70px;
+    }
+}
+
+
+@media (max-width: 767px){
+    .place{
+        margin-bottom: 48px;
+        grid-template-columns: min-content;
+        grid-template-rows: repeat(4, min-content);
+        grid-template-areas: 
+        "title" 
+        "website"
+        "image" 
+        "textik";
+    }
+}

@@ -1,0 +1,21 @@
+.cover{
+    max-width: 1184px;
+    height: calc(min(1184px, 100vw)*(740/1184));
+    margin: 92px auto 0;
+    padding: 0;
+
+    background: url("../../images/__background.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+@media (max-width: 768px){
+    .cover{
+        margin-top: 88px;
+    }
+}
+
+@media (max-width: 320px){
+    .cover{
+        margin-top: 66px;
+    }
+}
